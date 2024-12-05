@@ -1,3 +1,3 @@
 SELECT `date_of_birth`
 FROM `students`
-WHERE year(`date_of_birth`) < 1994;
+WHERE TIMESTAMPDIFF(YEAR, `date_of_birth`, CURDATA()) > 30;

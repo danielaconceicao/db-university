@@ -1,3 +1,3 @@
 SELECT * FROM `exams`
-WHERE hour > '14:00'
-AND date = '2020-06-20';
+WHERE date = '2020-06-20';
+AND hour > '14:00'
